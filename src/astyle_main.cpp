@@ -708,7 +708,7 @@ int main(int argc, char *argv[])
     else
     {
         // Running in file-based mode, so can provide information on stdout
-        printTitle();
+        //printTitle();
 
         // indent the given files
         for (unsigned int i=0; i<fileNameVector.size(); i++)
@@ -758,9 +758,11 @@ int main(int argc, char *argv[])
             }
 
             // print
+            /*
             SetColor(3,0);
             cout <<"Indented file -- " <<originalFileName << "."<< endl;
             SetColor(7,0);
+            */
         }
     }
     SetColor(7,0);
